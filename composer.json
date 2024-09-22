@@ -1,0 +1,55 @@
+{
+	"name": "sematico/wpdb-builder",
+	"description": "A lightweight and fluent query builder for easy database interactions in WordPress.",
+	"keywords": [
+		"wordpress",
+		"sematico",
+		"framework",
+		"database",
+		"query builder"
+	],
+	"authors": [{
+		"name": "Alessandro Tesoro",
+		"email": "alessandro.tesoro@icloud.com"
+	}],
+	"homepage": "https://github.com/alessandrotesoro/wpdb-builder",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/alessandrotesoro/wpdb-builder/issues"
+	},
+	"autoload": {
+		"psr-4": {
+			"Sematico\\Baselibs\\QueryBuilder\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Sematico\\Baselibs\\QueryBuilder\\Tests\\": "tests"
+		}
+	},
+	"require-dev": {
+		"10up/wp_mock": "^0.4.2",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+		"pestphp/pest": "^3.0",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"squizlabs/php_codesniffer": "^3.7",
+		"symfony/var-dumper": "^5.1",
+		"wp-coding-standards/wpcs": "^3.0"
+	},
+	"repositories": [],
+	"config": {
+		"bin-dir": "bin",
+		"sort-packages": true,
+		"preferred-install": {
+			"*": "dist"
+		},
+		"platform-check": false,
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"pestphp/pest-plugin": true
+		}
+	},
+	"scripts": {},
+	"prefer-stable": true,
+	"minimum-stability": "dev"
+}
