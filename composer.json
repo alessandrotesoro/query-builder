@@ -49,7 +49,9 @@
 			"pestphp/pest-plugin": true
 		}
 	},
-	"scripts": {},
+	"scripts": {
+		"test": "./bin/pest"
+	},
 	"prefer-stable": true,
 	"minimum-stability": "dev"
 }
