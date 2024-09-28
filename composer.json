@@ -1,5 +1,5 @@
 {
-	"name": "sematico/wpdb-builder",
+	"name": "sematico/baselibs-query-builder",
 	"description": "A lightweight and fluent query builder for easy database interactions in WordPress.",
 	"keywords": [
 		"wordpress",
