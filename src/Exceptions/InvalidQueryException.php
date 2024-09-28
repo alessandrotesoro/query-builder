@@ -5,7 +5,7 @@
  * @package   Sematico\Baselibs\QueryBuilder
  * @author    Alessandro Tesoro <alessandro.tesoro@icloud.com>
  * @copyright 2024 Sematico
- * @license   GPL-3.0-or-later
+ * @license   MIT
  */
 
 namespace Sematico\Baselibs\QueryBuilder\Exceptions;
